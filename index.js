@@ -24,6 +24,6 @@ app.use(charactersRoutes);
 app.use(comicsRoutes);
 
 //SERVER START
-app.listen(process.env.PORT || 4000, () => {
+app.listen(process.env.PORT || 8080, () => {
   console.log("server started");
 });
